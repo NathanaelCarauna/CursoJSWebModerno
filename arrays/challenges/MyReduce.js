@@ -1,6 +1,8 @@
-Array.prototype.reduce2 = function(callback, initialValue){
+Array.prototype.reduce2 = function (callback, initialValue) {
     let acumulator = initialValue || this[0];
-    for(let i = 0; i < this.length; i++){
+    let iterator = 0
+    acumulator == initialValue ? iterator : iterator = 1
+    for (let i = iterator; i < this.length; i++) {
         acumulator = callback(acumulator, this[i], i, this)
     }
     return acumulator;
@@ -14,7 +16,7 @@ const students = [
 ]
 
 const initialValue = 10
-console.log(students.map(x=>x.grade).reduce2((acumulator, corrent) => acumulator + corrent, initialValue))
+console.log(students.map(x => x.grade).reduce2((acumulator, corrent) => acumulator + corrent, initialValue))
 
 const justScholarshipHolder = students.map(x => x.scholarshipHolder)
 //Challenge 1: Are all students scholarship holders?
