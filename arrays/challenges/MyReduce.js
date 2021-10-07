@@ -13,8 +13,8 @@ const students = [
     { name: 'Ana', grade: 8.7, scholarshipHolder: true },
 ]
 
-const initialValue = 3
-console.log(students.map(x=>x.grade).reduce((acumulator, corrent) => acumulator + corrent, initialValue))
+const initialValue = 10
+console.log(students.map(x=>x.grade).reduce2((acumulator, corrent) => acumulator + corrent, initialValue))
 
 const justScholarshipHolder = students.map(x => x.scholarshipHolder)
 //Challenge 1: Are all students scholarship holders?
