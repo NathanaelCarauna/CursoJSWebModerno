@@ -7,5 +7,5 @@ function secondGreater(arr) {
     return arr.sort((a, b) => b - a)[1]
 }
 
-console.log(secondGreater([12, 16, 1, 5]))
 console.log(secondGreater([8, 4, 5, 6]))
+console.log(secondGreater([12, 16, 1, 5]))
