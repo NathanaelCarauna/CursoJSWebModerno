@@ -8,5 +8,5 @@ function removeVowels(sentence){
     return sentence.replace(/([aeiou])/g, '')
 }
 
-console.log(removeVowels('Cod3r'))
 console.log(removeVowels('Fundamentos'))
+console.log(removeVowels('Cod3r'))
