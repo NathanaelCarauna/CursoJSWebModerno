@@ -20,3 +20,8 @@ console.log(betterStudent({
     Mariana: [9, 6.6, 7.9, 8],
     Carla: [7, 7, 8, 9]
 }))
+console.log(betterStudent({
+    Joao: [8, 7.6, 5, 6],
+    Mariana: [9, 3, 7.9, 8],
+    Carla: [7, 7, 6, 9]
+}))
