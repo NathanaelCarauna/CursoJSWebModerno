@@ -12,5 +12,5 @@ function filterByDigitsQty(arr, digits) {
     return result
 }
 
-console.log(filterByDigitsQty([38, 2, 365, 10, 125, 11], 2))
 console.log(filterByDigitsQty([5, 9, 1, 125, 11], 1))
+console.log(filterByDigitsQty([38, 2, 365, 10, 125, 11], 2))
