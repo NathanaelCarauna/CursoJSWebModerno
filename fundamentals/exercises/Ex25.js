@@ -10,7 +10,7 @@ function findWordsWith(word, array){
     return array.filter(x => x.includes(word))    
 }
 
-console.log(findWordsWith("pro", ["programação", "mobile", "profissional"]))
-console.log(findWordsWith("python", ["javascript", "java", "c++"]))
 console.log(findWordsWith("sym", ['symcia', "lógica", 'amor', 'casymdra']))
+console.log(findWordsWith("python", ["javascript", "java", "c++"]))
+console.log(findWordsWith("pro", ["programação", "mobile", "profissional"]))
 
