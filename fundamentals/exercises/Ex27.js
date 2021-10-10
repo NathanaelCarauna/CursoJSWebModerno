@@ -14,3 +14,4 @@ function invertValuesAndKeys(obj) {
 }
 
 console.log(invertValuesAndKeys({ a: 1, b: 2, c: 3 }))
+console.log(invertValuesAndKeys({ abobora: 'verdura', morango: 'fruta', gergilim: 'semente' }))
