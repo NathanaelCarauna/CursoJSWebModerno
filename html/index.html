@@ -16,10 +16,10 @@
     <nav>
         <ul>
             <li>
-                <a href="exercises/teste.html">teste</a>
+                <a href="exercises/teste.html">00-teste</a>
             </li>
             <li>
-                <a href="exercises/teste2.html">teste2</a>
+                <a href="exercises/tree.html" noLoad >01-Tree challenge</a>
             </li>
         </ul>
     </nav>
@@ -30,7 +30,10 @@
     <script>
         document.querySelectorAll('a').forEach(link => {
             link.onclick = (e) => {
-                e.preventDefault();
+                if(link.hasAttribute('noLoad')){
+                    return
+                } 
+                e.preventDefault()    
 
                 const content = document.getElementById('content')
                 fetch(link.href)
